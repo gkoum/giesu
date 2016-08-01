@@ -207,17 +207,17 @@ Forks of this project demonstrate how to extend and integrate with other librari
 │       ├── app
 │       │   ├── +about
 │       │   │   ├── about.component.css
-│       │   │   ├── about.component.e2e-spec.ts
+│       │   │   ├── graph-creation.component.e2e-spec.ts
 │       │   │   ├── about.component.html
 │       │   │   ├── about.component.spec.ts
-│       │   │   ├── about.component.ts
+│       │   │   ├── graph-creation.component.ts
 │       │   │   └── index.ts
 │       │   ├── +home
 │       │   │   ├── home.component.css
-│       │   │   ├── home.component.e2e-spec.ts
+│       │   │   ├── dashboard.component.e2e-spec.ts
 │       │   │   ├── home.component.html
-│       │   │   ├── home.component.spec.ts
-│       │   │   ├── home.component.ts
+│       │   │   ├── dashboard.component.spec.ts
+│       │   │   ├── dashboard.component.ts
 │       │   │   └── index.ts
 │       │   ├── app.component.e2e-spec.ts
 │       │   ├── app.component.html

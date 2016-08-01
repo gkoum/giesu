@@ -7,7 +7,7 @@ import {
 } from '@angular/core/testing';
 import { getDOM } from '@angular/platform-browser/src/dom/dom_adapter';
 
-import { AboutComponent } from './about.component';
+import { GraphCreationComponent } from './graph-creation.component';
 
 export function main() {
   describe('About component', () => {
@@ -31,7 +31,7 @@ export function main() {
 
 @Component({
   selector: 'test-cmp',
-  directives: [AboutComponent],
+  directives: [GraphCreationComponent],
   template: '<sd-about></sd-about>'
 })
 class TestComponent {}

@@ -1,0 +1,20 @@
+<!--<div *ngIf="selectedConcept">
+        <input [(ngModel)]="selectedConcept" placeholder="name"/>
+</div>-->
+
+<form (submit)="addConcept()">
+  <input [(ngModel)]="newConcept" name="newConcept" placeholder="Enter new Concept">
+  <button type="submit">Add to Query</button>
+  <button (click)="getInfo(newConcept)">Get Info</button>
+</form>
+
+
+<ul>
+  <li *ngFor="let concept of concepts"
+      [class.selected]="concept === selectedConcept"
+      (click)="onSelect(concept)">{{concept}}
+  </li>
+</ul>
+<button type="button" (click)="deleteConcept()">Delete Concept</button>
+<button type="button" (click)="submitQuery()">Submit query</button>
+
